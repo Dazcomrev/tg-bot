@@ -1,7 +1,5 @@
 const TelegramBot = require("node-telegram-bot-api");
 
-//Возможно стоит изменить
-const a = 1;
 const token = "7230369845:AAHXDkOdsFCSi2RsRMp8VzCFZo9gLhvUups";
 const webAppUrl = 'https://aesthetic-creponne-ffd0c8.netlify.app';
 const bot = new TelegramBot(token, { polling: true });
